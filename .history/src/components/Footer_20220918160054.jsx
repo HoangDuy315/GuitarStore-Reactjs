@@ -1,0 +1,38 @@
+import React from 'react'
+import {FontAwesomeIcon} from 'font-awesome'
+
+
+const Footer = () => {
+    return (
+       <footer className='text-center text-lg-start bg-dark text-muted'>
+            <div className='f-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+                <div class="me-5 d-none d-lg-block">
+                    <span class="text-white fs-5">Social</span>
+                </div>
+
+                <div>
+                    <a href="" class="me-4 link-secondary">
+                    <FontAwesomeIcon icon="fa-brands fa-facebook" />
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+       </footer>
+    )
+}
+
+export default Footer
