@@ -35,7 +35,7 @@ const Product = () => {
                     <div class="card my-5 py-2" style={{width: "18rem"}}>
                         <img src="/assets/images/products/cl2.png" class="card-img-top" alt=""/>
                         <div class="card-body text-center">
-                            <h5 class="card-title">TAKAMINE TC132SC TWCR</h5>
+                            <h5 class="card-title">TAKAMINE TC132SC</h5>
                             <p class="card-text text-warning">33,960,000đ</p>
                             <a href="#" class="btn btn-primary rounded-pill">Buy now</a>
                         </div>

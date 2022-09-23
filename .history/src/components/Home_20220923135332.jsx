@@ -39,7 +39,7 @@ const Home = () => {
             </div>
             <Product/>
             <Staff/>
-
+            <Cart/>
         </div>
         
     )

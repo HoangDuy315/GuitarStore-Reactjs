@@ -32,7 +32,7 @@ const Header = () => {
                             <NavLink className="nav-link text-white" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold text-white" to="/">GNAHYUD</NavLink>
+                    <NavLink className="navbar-brand mx-auto fw-bold" to="/">GNAHYUD</NavLink>
                     <Login/>
                     <Signup/>
                     <Cart/>

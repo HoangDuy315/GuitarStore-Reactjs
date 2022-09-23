@@ -2,7 +2,6 @@ import React from 'react'
 import Product from './Product'
 import Staff from './Staff'
 import '../index.css'
-import Cart from './buttons/Cart'
 
 const Home = () => {
     return (
@@ -39,7 +38,6 @@ const Home = () => {
             </div>
             <Product/>
             <Staff/>
-
         </div>
         
     )

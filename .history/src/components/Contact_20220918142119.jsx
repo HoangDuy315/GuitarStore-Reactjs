@@ -30,7 +30,7 @@ const Contact = () => {
                                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary rounded-pill">Send </button>
+                            <button type="submit" class="btn btn-primary">Send </button>
                         </form>
                     </div>
                 </div>

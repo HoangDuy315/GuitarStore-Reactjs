@@ -6,7 +6,7 @@ const Staff = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h1>Staff</h1>
+                        <h1>Product</h1>
                         <hr />
                     </div>
                 </div>
