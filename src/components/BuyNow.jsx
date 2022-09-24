@@ -2,7 +2,7 @@ import React from 'react'
 
 const BuyNow = () => {
     return (
-        <div>
+        <div className='p-5'>
             No info
         </div>
     )
