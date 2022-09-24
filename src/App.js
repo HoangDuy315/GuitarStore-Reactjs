@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Staff from './components/Staff';
 import {Route, Redirect, Switch} from 'react-router-dom'
 import Cart from './components/buttons/Cart';
+import BuyNow from './components/BuyNow';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/about' component={About}/>
         <Route exact path='/contact' component={Contact}/>
         <Route exact path='/cart' component={Cart}/>
+        <Route exact path='/buynow' component={BuyNow}/>
         <Redirect to='/'/>
       </Switch>
       <Footer/>

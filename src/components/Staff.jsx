@@ -24,7 +24,7 @@ const Staff = () => {
                                 <img src="./assets/images/ceo.png" class="card-img-top" alt="..."/>
                                 <div class="card-body text-center">
                                 <h4 class="card-title text-warning">CEO</h4>
-                                <h6 class="card-title lead">GnahYud</h6>
+                                <h6 class="card-title lead">GnahYuD</h6>
                                 <p class="card-text">When life changes to be harder, change yourself to be stronger</p>
                                 </div>
                             </div>

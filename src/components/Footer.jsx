@@ -4,9 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer class="text-center text-lg-start bg-dark text-muted my-5 py-2">
-
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-
           <div class="me-5 d-none d-lg-block">
             <span class="text-white fs-5">Social</span>
           </div>
@@ -31,7 +29,6 @@ const Footer = () => {
             </a>
           </div>
         </section>
-
             <div className="class">
                 <div class="container text-center text-md-start mt-5">
                     <div class="row mt-3">

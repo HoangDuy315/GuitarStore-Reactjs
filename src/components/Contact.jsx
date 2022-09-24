@@ -12,7 +12,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-md 5 d-flex justify-content-center">
-                        <img src="/assets/images/contact.png" alt="Contact us" height="400px" width="" />
+                        <img src="/assets/images/home/email.jpg" alt="Contact us" height="300px" width="400px" />
                     </div>
                     <div className="col-md-6">
                         <form>
@@ -31,6 +31,7 @@ const Contact = () => {
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary rounded-pill">Send </button>
+                            <div className='p-4'></div>
                         </form>
                     </div>
                 </div>
