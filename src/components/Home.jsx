@@ -8,7 +8,7 @@ import Contact from './Contact'
 const Home = () => {
     return (
         <div>
-            <div id="home" class="d-flex">
+            <div id="home" class="d-flex ">
                 <div class="container d-flex align-items-center">
                     <div class="row justify-content-center">
                         <div class="col-md-6">
@@ -22,7 +22,7 @@ const Home = () => {
             <div className="container p-4 py-5">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h1>Carousel</h1>
+                        <h1 className='fw-bold text-warning'>Carousel</h1>
                         <hr />
                     </div>
                 </div>

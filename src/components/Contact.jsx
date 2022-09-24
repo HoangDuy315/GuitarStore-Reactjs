@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="container mb-5">
                 <div className="row">
                     <div className="col-12 text-center py-4 my-4">
-                        <h1>Have Some Questions? </h1>
+                        <h1 className='fw-bold text-warning'>Have Some Questions? </h1>
                         <hr />
                     </div>
                 </div>
