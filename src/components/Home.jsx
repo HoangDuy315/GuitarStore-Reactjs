@@ -19,7 +19,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="container p-4 py-5">
+            <div className="container p-1 py-3">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1 className='fw-bold text-warning'>Carousel</h1>
