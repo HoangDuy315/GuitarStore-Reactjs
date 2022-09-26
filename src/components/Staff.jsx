@@ -3,7 +3,7 @@ import React from 'react'
 const Staff = () => {
     return (
         <div>
-            <div className="container py-5">
+            <div className="container py-3">
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1 className='fw-bold text-warning'>Staff</h1>
@@ -13,8 +13,8 @@ const Staff = () => {
             </div>
              {/* <!-- Designer --> */}
             <div id="designer">
-                <div class="container">
-                    <div class="row mb-5    ">
+                <div class="container justify-content-around">
+                    <div class="row mb-5">
                     
                     </div>
                     <div class="row">

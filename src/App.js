@@ -14,16 +14,16 @@ function App() {
   return (
     <>
       <Header/>
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/products' component={Product}/>
-        <Route exact path='/staff' component={Staff}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/contact' component={Contact}/>
-        <Route exact path='/cart' component={Cart}/>
-        <Route exact path='/buynow' component={BuyNow}/>
-        <Redirect to='/'/>
-      </Switch>
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/products' component={Product}/>
+          <Route exact path='/staff' component={Staff}/>
+          <Route exact path='/about' component={About}/>
+          <Route exact path='/contact' component={Contact}/>
+          <Route exact path='/cart' component={Cart}/>
+          <Route exact path='/buynow' component={BuyNow}/>
+          <Redirect to='/'/>
+        </Switch>
       <Footer/>
     </>
   );

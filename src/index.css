@@ -17,7 +17,7 @@ code {
   font-size: 17px;
 }
 .navbar-brand {
-  letter-spacing: 4px;
+  letter-spacing: 6px;
 }
 
 .card {
@@ -32,10 +32,10 @@ code {
 #home {
   background: url('./assets/logo.png') rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
-  min-height: 550px;
+  min-height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* margin-top: 10px; */
+  margin-top: 0.2px;
 }
 

@@ -1,106 +1,120 @@
 import React from 'react'
-
+import TT from '../assets/thanhtoan.png'
+import CN from '../assets/chungnhan.png'
+import DMCA from '../assets/dmca.png'
 
 const Footer = () => {
     return (
+            <footer class="text-center text-lg-start bg-dark text-muted">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <div class="me-5 d-none d-lg-block">
+                        <span class="text-secondary fs-5">Social</span>
+                    </div>
 
-            <footer class="text-center text-lg-start bg-dark text-muted my-5 py-2">
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <div class="me-5 d-none d-lg-block">
-                <span class="text-white fs-5">Social</span>
-            </div>
-            <div>
-                <a href="#" class="me-4">
-                <i class="fa fa-facebook-f"></i>
-                </a>
-                <a href="#" class="me-4">
-                <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#" class="me-4">
-                <i class="fa fa-google"></i>
-                </a>
-                <a href="#" class="me-4">
-                <i class="fa fa-instagram"></i>
-                </a>
-                <a href="#" class="me-4">
-                <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="#" class="me-4">
-                <i class="fa fa-github"></i>
-                </a>
-            </div>
-            </section>
+                    <div>
+                        <a href="https://www.facebook.com/profile.php?id=100007746304417" class="me-4">
+                        <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a href="/" class="me-4">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="/" class="me-4">
+                        <i class="fa fa-google"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hoangduy315/" class="me-4">
+                        <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="/" class="me-4">
+                        <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/HoangDuy315" class="me-4">
+                        <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </section>
+                
                 <div className="class">
-                    <div class="container text-center text-md-start mt-5">
-                        <div class="row mt-3">
-                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="container text-center text-md-start mt-4">
+                        <div class="row mt-2">
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
                                 <h6 class="text-uppercase fw-bold mb-4">
                                     <i class="fa fa-gem "></i>GNAHYUD HD
                                 </h6>
                                 <p>
-                                    <a href="#!" class="text-white">Giới thiệu công ty</a>
+                                    <a href="/about" class="text-secondary">Introduction</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Hệ thống Showroom, đại lý</a>
+                                    <a href="https://vietthuong.vn/chi-nhanh" class="text-secondary">Showroom</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Liên hệ/góp ý</a>
+                                    <a href="/contact" class="text-secondary">Contact</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Mua trả góp</a>
+                                    <a href="/https://vietthuong.vn/mua-tra-gop" class="text-secondary">Hire-Purchase</a>
                                 </p>
                             </div>
 
-                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <div class="col-md-2 col-lg-2 col-xl-2 mb-3">
                                 <h6 class="text-uppercase fw-bold mb-4">
-                                    Hướng dẫn chung
+                                    General Guidance
                                 </h6>
                                 <p>
-                                    <a href="#!" class="text-white">Giao hàng-đổi trả</a>
+                                    <a href="https://vietthuong.vn/chinh-sach-doi-tra" class="text-secondary">Delivery - Exchange</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
+                                    <a href="https://vietthuong.vn/huong-dan-mua-hang" class="text-secondary">Shopping guide</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Thanh toán và bảo mật</a>
+                                    <a href="https://vietthuong.vn/chinh-sach-thanh-toan-va-bao-mat" class="text-secondary">Payment and Security</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Bảo hành Guitar</a>
+                                    <a href="https://vietthuong.vn/chinh-sach-bao-hanh.html" class="text-secondary">Guitar warranty</a>
                                 </p>
                             </div>
 
                             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                                 <h6 class="text-uppercase fw-bold mb-4">
-                                    Hỗ trợ khách hàng
+                                    Support
                                 </h6>
                                 <p>
-                                    <a href="#!" class="text-white">Gọi mua hàng </a>
+                                    <a href="tel:18006715" class="text-secondary">Call: <span className='text-danger'>1800 6789 </span></a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Thời gian phục vụ: 8h-22h</a>
+                                    <a href="/" class="text-secondary">Time: 8h-22h</a>
                                 </p>
                                 <p>
-                                    <a href="#!" class="text-white">Hotline: 1234 6789 </a>
-                                </p>
+                                    <a href="/" class="text-secondary">Hotline: 1234 6789 </a>
+                                </p> 
                             </div>
 
-                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">Địa chỉ</h6>
-                                <p><i class="fa fa-home me-3 text-secondary"></i>607 XVNT, P.26, Q.BT, TP.HCM</p>
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-2 mb-md-0 mb-3">
+                                <h6 class="text-uppercase fw-bold mb-4">Address</h6>
+                                <p><i class="fa fa-home me-3 text-secondary"></i>6** ****, P.26, Q.BT, TP.HCM</p>
                                 <p>
                                     <i class="fa fa-envelope me-3 text-secondary"></i>
-                                    info@example.com
+                                    19521425@gm.uit.edu.vn
                                 </p>
                                 <p><i class="fa fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
                                 <p><i class="fa fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
                             </div>
 
-                            <div class="text-center p-4">
-                                © 2022 Design by:
-                                <a class="navbar-brand text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100007746304417"> GNAHYUD</a>
-                            </div>
+                            <div class="d-flex justify-content-center justify-content-lg-between p-2 ">
+                                <h6 class="text-uppercase fw-bold mt-3">Payment Method</h6>
+                                    <img href="" src={TT} alt="" className='mx-0'/>
+                                <h6 class="text-uppercase fw-bold mt-3">Certificate</h6>
+                                <a href="http://online.gov.vn/Home/WebDetails/29527" className='ms-0'>
+                                    <img src={CN} alt="" className='' height="50px" width="100px"/>
+                                </a>
+                                <a href="https://www.dmca.com/Protection/Status.aspx?ID=eef1ddde-2dff-4626-ac14-95eda3e1eddd&refurl=https://vietthuong.vn/dan-guitar.html">
+                                    <img src={DMCA} alt=" "className='ms-0' height="50px" width="100px" />
+                                </a>
+                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="text-center p-4">
+                    © 2022 Design by:
+                    <a class="navbar-brand text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100007746304417"> GNAHYUD</a>
                 </div>
         </footer>
     )

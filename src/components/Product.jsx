@@ -1,8 +1,23 @@
 import React from 'react';
 import {BsFillCartFill} from 'react-icons/bs'
+import { DataGuitar } from '../Data';
 
 
 const Product = () => {
+
+    const cardItem = (item) => {
+        return(
+            <div class="card border-1 my-4 py-1" style={{width:" 18rem"}}>
+            <img src={item.img} class="card-img-top"/>
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">{item.title}</h5>
+                    <p className="lead card-text text-warning">{item.price}</p>
+                    <a href="/BuyNow" class="btn btn-outline-warning rounded-pill">Buy now</a>
+                    <a href="/cart" class="ms-2 btn btn-outline-secondary rounded-pill"><BsFillCartFill/></a>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div>
@@ -16,101 +31,9 @@ const Product = () => {
             </div>
             <div className="container">
                 <div className="row justify-content-around">
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/ac1.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">FENDER FSR V3 CD60 MAH WN</h5>
-                            <p class="card-text text-warning">4,900,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                            
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/cl1.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">CORDOBA 55FCE NEGRA - ZIRICOTE W/C</h5>
-                            <p class="card-text text-warning">50,640,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/cl2.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">TAKAMINE TC132SC TWCR</h5>
-                            <p class="card-text text-warning">33,960,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/ac3.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title fs-7">TANGLEWOOD TWCR </h5>
-                            <p class="card-text text-warning">3,350,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/e1.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">FENDER SQUIER</h5>
-                            <p class="card-text text-warning">10,750,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/ac5.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title ">FENDER CD-60S</h5>
-                            <p class="card-text text-warning">5,950,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/ac6.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">TAYLOR AD17E</h5>
-                            <p class="card-text text-warning">42,000,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/e2.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">FENDER SQUIER HSS</h5>
-                            <p class="card-text text-warning">9,320,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
- 
-                    <div class="card border-1 my-5 py-2 " style={{width: "18rem"}}>
-                        <img src="/assets/images/products/cl7.png" class="card-img-top" alt=""/>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">TAKAMINE TH90</h5>
-                            <p class="card-text text-warning">47,650,000đ</p>
-                            <a href="/buynow" class="btn btn-warning rounded-pill">Buy now </a>
-                            <a href="/cart" class="ms-2 btn btn-dark rounded-pill"> <BsFillCartFill/></a>
-                        </div>
-                    </div>
-
-                    
+                    {DataGuitar.map(cardItem)}
                 </div>
             </div>
-            
         </div>
     )
 }
