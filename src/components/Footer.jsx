@@ -2,33 +2,34 @@ import React from 'react'
 import TT from '../assets/thanhtoan.png'
 import CN from '../assets/chungnhan.png'
 import DMCA from '../assets/dmca.png'
+import '../style/style.css';
 
 const Footer = () => {
     return (
             <footer class="text-center text-lg-start bg-dark text-muted">
-                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
                     <div class="me-5 d-none d-lg-block">
-                        <span class="text-secondary fs-5">Social</span>
+                        <span class="text-secondary fs-4 fw-bold">Social</span>
                     </div>
 
                     <div>
                         <a href="https://www.facebook.com/profile.php?id=100007746304417" class="me-4">
-                        <i class="fa fa-facebook-f"></i>
+                            <i class="fa fa-facebook-f"></i>
                         </a>
                         <a href="/" class="me-4">
-                        <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter"></i>
                         </a>
                         <a href="/" class="me-4">
-                        <i class="fa fa-google"></i>
+                            <i class="fa fa-google"></i>
                         </a>
                         <a href="https://www.instagram.com/hoangduy315/" class="me-4">
-                        <i class="fa fa-instagram"></i>
+                            <i class="fa fa-instagram"></i>
                         </a>
                         <a href="/" class="me-4">
-                        <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-linkedin"></i>
                         </a>
                         <a href="https://github.com/HoangDuy315" class="me-4">
-                        <i class="fa fa-github"></i>
+                            <i class="fa fa-github"></i>
                         </a>
                     </div>
                 </section>
@@ -98,15 +99,15 @@ const Footer = () => {
                                 <p><i class="fa fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
                             </div>
 
-                            <div class="d-flex justify-content-center justify-content-lg-between p-2 ">
+                            <div class="d-flex justify-content-center justify-content-lg-between p-4 ">
                                 <h6 class="text-uppercase fw-bold mt-3">Payment Method</h6>
                                     <img href="" src={TT} alt="" className='mx-0'/>
-                                <h6 class="text-uppercase fw-bold mt-3">Certificate</h6>
-                                <a href="http://online.gov.vn/Home/WebDetails/29527" className='ms-0'>
-                                    <img src={CN} alt="" className='' height="50px" width="100px"/>
+                                <h6 class="text-uppercase fw-bold mt-3 px-3">Certificate</h6>
+                                <a href="http://online.gov.vn/Home/WebDetails/29527" className='ms-0 '>
+                                    <img src={CN} alt="" className='dmaca' height="50px" width="100px"/>
                                 </a>
-                                <a href="https://www.dmca.com/Protection/Status.aspx?ID=eef1ddde-2dff-4626-ac14-95eda3e1eddd&refurl=https://vietthuong.vn/dan-guitar.html">
-                                    <img src={DMCA} alt=" "className='ms-0' height="50px" width="100px" />
+                                <a className='' href="https://www.dmca.com/Protection/Status.aspx?ID=eef1ddde-2dff-4626-ac14-95eda3e1eddd&refurl=https://vietthuong.vn/dan-guitar.html">
+                                    <img src={DMCA} alt=" "className='dmac' height="50px" width="100px" />
                                 </a>
                              </div>
                         </div>

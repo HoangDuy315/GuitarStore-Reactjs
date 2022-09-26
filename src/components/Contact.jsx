@@ -1,4 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+
 
 const Contact = () => {
     return (
@@ -30,7 +33,11 @@ const Contact = () => {
                                 <label for="exampleFormControlTextarea1" class="form-label">Text</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Type text'></textarea>
                             </div>
-                            <button type="submit" class="btn btn-outline-warning rounded-pill">Send </button>
+                            <NavLink to="/sendsuccess">
+                                <button type="submit" class="btn btn-outline-warning rounded-pill">
+                                    Send 
+                                </button>
+                            </NavLink>  
                             <div className='p-4'></div>
                         </form>
                     </div>

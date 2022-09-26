@@ -13,13 +13,13 @@ const Staff = () => {
             </div>
              {/* <!-- Designer --> */}
             <div id="designer">
-                <div class="container justify-content-around">
+                <div class="container justify-content-around mb-5">
                     <div class="row mb-5">
                     
                     </div>
                     <div class="row">
                         {/* <!-- 1 --> */}
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="card border-0">
                                 <img src="./assets/images/ceo.png" class="card-img-top" alt="..."/>
                                 <div class="card-body text-center">

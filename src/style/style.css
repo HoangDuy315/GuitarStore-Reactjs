@@ -2,3 +2,9 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.dmac {
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 1%;
+}

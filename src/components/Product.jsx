@@ -8,7 +8,7 @@ const Product = () => {
     const cardItem = (item) => {
         return(
             <div class="card border-1 my-4 py-1" style={{width:" 18rem"}}>
-            <img src={item.img} class="card-img-top"/>
+                <img src={item.img} class="card-img-top" alt=''/>
                 <div class="card-body text-center">
                     <h5 class="card-title fw-bold">{item.title}</h5>
                     <p className="lead card-text text-warning">{item.price}</p>
