@@ -114,7 +114,7 @@ const Footer = () => {
                 </div>
                 <div class="text-center p-4">
                     © 2022 Design by:
-                    <a class="navbar-brand text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100007746304417"> GNAHYUD</a>
+                    <a class="navbar-brand text-reset fw-bold" href="https://www.facebook.com/profile.php?id=100007746304417">GNAHYUD</a>
                 </div>
         </footer>
     )
