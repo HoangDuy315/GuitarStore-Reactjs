@@ -29,7 +29,7 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container my-5">
                 <div className="row justify-content-around">
                     {DataGuitar.map(cardItem)}
                 </div>
