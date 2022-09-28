@@ -1,19 +1,46 @@
-.bg-pri {
-    background-color: rgba(0, 0, 0, 0.7);
+/* navbar class is hihi */
+.hihi {
+    color: rgb(237, 204, 156);
 }
 
+/* class footer */
+.tt {
+    transition: all 0.5s ease;
+}
+.tt:hover {
+    transform: scale(1.1);
+}
+/* class footer */
 .dmac {
     padding-right: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-left: 1%;
+    transition: all 0.5s ease;
+}
+.dmac:hover {
+    transform: scale(1.1);
+}
+/* class footer */
+.dmaca {
+    transition: all 0.5s ease;
+}
+.dmaca:hover {
+    transform: scale(1.1);
 }
 
+
+/* class carousel */
 .cardd {
     width: 60vh;
     justify-content: center;
     height: 400px;
     margin-top: -50px;
+    transition: all 0.5s ease;
+}
+
+.cardd:hover {
+    transform: scale(1.1);
 }
 
 .carousel {
@@ -25,4 +52,17 @@
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100%;
+}
+
+/* class contact */
+.ctact {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 60vh;
+    width: 60vh;
+    transition: all 0.5s ease;
+}
+.ctact:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }

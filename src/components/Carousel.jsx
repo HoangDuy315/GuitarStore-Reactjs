@@ -33,7 +33,7 @@ const Carousel = () => {
                             <img src={CL1} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">CORDOBA 55FCE NEGRA - ZIRICOTE W/C</h5>
-                                <p class="text-dark mt-2 fw-bold">50,640,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">50,640,000đ</p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Carousel = () => {
                             <img src={AC6} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">TAYLOR AD17E</h5>
-                                <p class="text-dark mt-2 fw-bold">42,000,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">42,000,000đ</p>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Carousel = () => {
                             <img src={E2} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">FENDER SQUIER HSS</h5>
-                                <p class="text-dark mt-2 fw-bold">9,320,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">9,320,000đ</p>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ const Carousel = () => {
                             <img src={CL3} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">TAKAMINE TC135SC</h5>
-                                <p class="text-dark mt-2 fw-bold">41,570,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">41,570,000đ</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ const Carousel = () => {
                             <img src={E3} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">FENDER WPPG SBT</h5>
-                                <p class="text-dark mt-2 fw-bold">10,720,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">10,720,000đ</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Carousel = () => {
                             <img src={CL4} class="cardd" alt="" />
                             <div class="card-body text-center">
                                 <h5 class="card-title mt-1 text-warning fw-bold">TAKAMINE GC3</h5>
-                                <p class="text-dark mt-2 fw-bold">6,290,000đ</p>
+                                <p class="text-dark mt-2 fs-5 fw-bold">6,290,000đ</p>
                             </div>
                         </div>
                     </div>

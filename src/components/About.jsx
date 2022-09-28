@@ -8,8 +8,7 @@ const About = () => {
                 <div className="row ">
                     <div className="col-md-6">
                         <h1 className='text-warning fw-bold mb-4'>ABOUT US</h1>
-                        <p className="lead mb-4 fs-4">Công ty Cổ Phần TM-DV-SX GNAHYUD(GNAHYUD HD) được ra đời vào năm 2022 và thành lập chính thức vào năm 2022 với khởi nguồn từ Trường Suối Nhạc – trường tư thục âm nhạc đầu tiên tại Việt Nam.
-                         Tương tự như hệ thống phân phối nhạc cụ, chúng tôi phát triển thương hiệu Suối Nhạc phủ rộng tại nhiều địa bàn trong cả nước để đáp ứng nhu cầu học nhạc. Danh mục sản phẩm đầu tiên của GnahYuD là những cây đàn Guitar mới toanh của Casio và Kawai Nhật Bản được giới thiệu tại thị trường Việt Nam.
+                        <p className="lead mb-4 fs-5">Dear customers, JSC TM-DV-SX GNAHYUD (GNAHYUD HD) was established in 2022 with the main product is the guitar, after nearly 1 year of operation, the company has a relationship. Trade with famous musical instrument brands in the world such as Germany, France, the Netherlands, Italy, USA, UK, Japan, Taiwan, China, Korea, etc. Product categories are also expanded. richer and more diversified with musical instruments imported from the above countries such as acoustic pianos, electronic pianos, organs, guitars, drums, trumpets, other audio equipment and music accessories. Up to now, after many years of operation, with a staff, staff, enthusiastic, highly qualified, GnahYuD Company has been trusted by customers and has become one of the largest musical instruments in Ho Chi Minh City. Chi Minh.
                         </p>
                         <NavLink to="/contact" className="btn btn-outline-warning px-3 rounded-pill">Contact Us</NavLink>
                     </div>

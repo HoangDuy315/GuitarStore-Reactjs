@@ -17,20 +17,43 @@ const Header = () => {
                     <div className="collapse navbar-collapse show" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto px-2 mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <NavLink className="nav-link text-light fw-bold" aria-current="page" to="/">Home</NavLink>
-                            </li>
-                            <li className="nav-item">
-                            <NavLink className="nav-link text-light fw-bold" to="/products">Product</NavLink>
+                                <NavLink className="nav-link text-light fw-bold" aria-current="page" to="/">
+                                    <div className='hihi'>
+                                        Home
+                                    </div>
+                                </NavLink>
                             </li>
 
                             <li className="nav-item">
-                            <NavLink className="nav-link text-light fw-bold" to="/staff">Staff</NavLink>
-                            </li> 
-                            <li className="nav-item">
-                            <NavLink className="nav-link text-light fw-bold" to="/about">About</NavLink>
+                                <NavLink className="nav-link text-light fw-bold" to="/products">
+                                    <div className='hihi'>
+                                        Product
+                                    </div>
+                                </NavLink>
                             </li>
+
                             <li className="nav-item">
-                            <NavLink className="nav-link text-light fw-bold" to="/contact">Contact</NavLink>
+                                <NavLink className="nav-link text-light fw-bold" to="/staff">
+                                    <div className='hihi'>
+                                        Staff
+                                    </div>
+                                </NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link text-light fw-bold" to="/about">
+                                    <div className='hihi'>
+                                        About
+                                    </div>
+                                </NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink className="nav-link text-light fw-bold" to="/contact">
+                                    <div className='hihi'>
+                                        Contact
+                                    </div>
+                                </NavLink>
                             </li>
                         </ul>
                     <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink>

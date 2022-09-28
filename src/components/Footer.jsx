@@ -101,7 +101,7 @@ const Footer = () => {
 
                             <div class="d-flex justify-content-center justify-content-lg-between p-4 ">
                                 <h6 class="text-uppercase fw-bold mt-3">Payment Method</h6>
-                                    <img href="" src={TT} alt="" className='mx-0'/>
+                                    <img href="" src={TT} alt="" className='tt mx-0'/>
                                 <h6 class="text-uppercase fw-bold mt-3 px-3">Certificate</h6>
                                 <a href="http://online.gov.vn/Home/WebDetails/29527" className='ms-0 '>
                                     <img src={CN} alt="" className='dmaca' height="50px" width="100px"/>
