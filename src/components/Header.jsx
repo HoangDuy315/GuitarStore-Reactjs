@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import Cart from './buttons/Cart'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
+import LOGO from '../assets/logo1.png'
 import '../style/style.css'
 
 
@@ -15,7 +16,10 @@ const Header = () => {
                     <span className="navbar-toggler-icon "></span>
                     </button>
                     <div className="collapse navbar-collapse show" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto px-2 mb-2 mb-lg-0">
+                        <a class="navbar-brand fs-5 text-warning" href='https://www.facebook.com/profile.php?id=100007746304417'>
+                            <img src={LOGO} alt="Logo" className='logo btn-warning'/>
+                        </a> 
+                        <ul className="kkk navbar-nav me-2 px-2 mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <NavLink className="nav-link text-light fw-bold" aria-current="page" to="/">
                                     <div className='hihi'>
@@ -56,7 +60,7 @@ const Header = () => {
                                 </NavLink>
                             </li>
                         </ul>
-                    <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink>
+                    {/* <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink> */}
                     <Login/>
                     <Signup/>
                     <Cart/>

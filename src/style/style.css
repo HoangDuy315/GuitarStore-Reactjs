@@ -1,6 +1,10 @@
 /* navbar class is hihi */
 .hihi {
     color: rgb(237, 204, 156);
+    transition: all 0.5s ease;
+}
+.hihi:hover {
+    transform: scale(1.2);
 }
 
 /* class footer */
@@ -65,4 +69,23 @@
 .ctact:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Nav */
+.kkk {
+    margin-left: -15px;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: -12px;
+    margin-bottom: -13px;
+    margin-top: -13px;
+    transition: all 0.5s ease;
+}
+.logo:hover {
+    transform: scale(1.3);
 }
