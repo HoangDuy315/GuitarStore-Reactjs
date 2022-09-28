@@ -41,7 +41,7 @@ const Signup = () => {
                                 <buton className="btn btn-outline-warning rounded-pill w-100 mb-3">
                                     <span className='fa fa-facebook me-2'></span> Sign up with Facebook
                                 </buton>
-                                <button type="submit" class="btn btn-warning rounded-pill w-100 mt-4">Register</button>
+                                <button type="submit" class="btn btn-warning rounded-pill w-100 mt-4 fw-bold">Register</button>
                             </form>
                         </div>
                     </div>
