@@ -26,6 +26,7 @@ const Staff = () => {
                                 <h4 class="card-title text-warning">CEO</h4>
                                 <h6 class="card-title lead">GnahYuD</h6>
                                 <p class="card-text">When life changes to be harder, change yourself to be stronger</p>
+                                <a href="/infostaff" class="btn btn-outline-warning rounded-pill mt-1">More Info</a>
                                 </div>
                             </div>
                         </div>
@@ -38,6 +39,7 @@ const Staff = () => {
                                 <h4 class="card-title text-warning">Trưởng phòng</h4>
                                 <h6 class="card-title lead">Glong</h6>
                                 <p class="card-text">In three words I can sum up I’ve learned in life: it goes on.</p>
+                                <a href="/infostaff" class="btn btn-outline-warning rounded-pill mt-1">More Info</a>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +51,8 @@ const Staff = () => {
                                 <div class="card-body text-center">
                                 <h4 class="card-title text-warning">Bảo vệ</h4>
                                 <h6 class="card-title lead">Ốc Piêu</h6>
-                                <p class="card-text">We could never learn to be brave and patient, if there were only joy in the world.</p>
+                                <p class="card-text">In three words I can sum up I’ve learned in life: it goes on..</p>
+                                <a href="/infostaff" class="btn btn-outline-warning mt-1 rounded-pill">More Info</a>
                                 </div>
                             </div>
                         </div>
@@ -62,6 +65,7 @@ const Staff = () => {
                                 <h4 class="card-title text-warning">Lao công</h4>
                                 <h6 class="card-title lead">Như Hiền</h6>
                                 <p class="card-text">Sadness flies away on the wings of time.</p>
+                                <a href="/infostaff" class="btn btn-outline-warning rounded-pill mt-1">More Info</a>
                                 </div>
                             </div>
                         </div>

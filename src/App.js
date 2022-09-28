@@ -10,6 +10,7 @@ import {Route, Redirect, Switch} from 'react-router-dom'
 import Cart from './components/buttons/Cart';
 import BuyNow from './components/BuyNow';
 import SendSuccess from './components/SendSuccess';
+import InfoStaff from './components/InfoStaff';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/' component={Home}/>
           <Route exact path='/products' component={Product}/>
           <Route exact path='/staff' component={Staff}/>
+          <Route exact path='/infostaff' component={InfoStaff}/>
           <Route exact path='/about' component={About}/>
           <Route exact path='/contact' component={Contact}/>
           <Route exact path='/sendsuccess' component={SendSuccess}/>
