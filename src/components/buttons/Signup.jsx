@@ -3,7 +3,7 @@ import React from 'react'
 const Signup = () => {
     return (
         <div>
-            <button type="button" class="btn btn-outline-warning px-9 rounded-pill ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">
+            <button type="button" class="btn btn-outline-warning rounded-pill ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">
                 <span className='fa fa-user-plus me-1'></span>Register
             </button>
 
@@ -12,7 +12,7 @@ const Signup = () => {
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title text-center" id="exampleModalLabel">Signup</h5>
+                            <h5 class="modal-title text-warning fw-bold " id="exampleModalLabel">Signup</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
@@ -20,7 +20,7 @@ const Signup = () => {
                             <form>
                                 <div class="mb-3 ">
                                     <label htmlFor="exampleInput" class="form-label">Username</label>
-                                    <input type="text" class="form-control" id="exampleInput"/>
+                                    <input type="text" class="form-control " id="exampleInput"/>
 
                                 </div>
                                 <div class="mb-3">
@@ -35,13 +35,13 @@ const Signup = () => {
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
                                     <label class="form-check-label" htmlFor="exampleCheck1">Remember password</label>
                                 </div>
-                                <buton className="btn btn-primary w-100 mb-3">
+                                <buton className="btn btn-outline-warning rounded-pill w-100 mb-3">
                                     <span className='fa fa-google me-2'></span> Sign up with Google
                                 </buton>
-                                <buton className="btn btn-primary w-100 mb-3">
+                                <buton className="btn btn-outline-warning rounded-pill w-100 mb-3">
                                     <span className='fa fa-facebook me-2'></span> Sign up with Facebook
                                 </buton>
-                                <button type="submit" class="btn btn-outline-primary w-100 mt-3">Register</button>
+                                <button type="submit" class="btn btn-warning rounded-pill w-100 mt-4">Register</button>
                             </form>
                         </div>
                     </div>
