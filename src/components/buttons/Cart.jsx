@@ -1,12 +1,17 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import EMPTY from './empty.png'
 
 const Cart = () => {
     return (
-        <div className=''>
-            <NavLink to='/cart' className='btn btn-outline-warning rounded-pill ms-2'>
-                <span className='fa fa-shopping-cart me-1'></span>Cart (0)
-            </NavLink>
+        <div>
+            <div className='p-5 text-center '>
+                <img src={EMPTY} alt=""/>
+            </div>
+            <div className='p-5 text-center fw-bold fs-2 text-warning'>
+                I haven't updated this feature yet. Waiting for me on a beautiful day !!!
+                <br />
+                <span className="p-5 text-dark fs-1 ">GnahYuD</span>
+            </div>
         </div>
     )
 }

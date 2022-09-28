@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Cart from './buttons/Cart'
 import Login from './buttons/Login'
 import Signup from './buttons/Signup'
 import LOGO from '../assets/logo1.png'
@@ -63,7 +62,13 @@ const Header = () => {
                     {/* <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink> */}
                     <Login/>
                     <Signup/>
-                    <Cart/>
+                    {/* Cart */}
+                    <div className=''>
+                        <NavLink to='/cart' className='btn btn-outline-warning rounded-pill ms-2'>
+                            <span className='fa fa-shopping-cart me-1'></span>
+                        </NavLink>
+                    </div>
+                    {/* Cart */}
                     </div>  
                 </div>
             </nav>
