@@ -4,6 +4,7 @@ import Staff from './Staff'
 import '../index.css'
 import About from './About'
 import Contact from './Contact'
+import Carousel from './Carousel'
 
 const Home = () => {
     return (
@@ -19,44 +20,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="container p-1 py-3">
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <h1 className='fw-bold text-warning'>Carousel</h1>
-                        <hr />
-                    </div>
-                </div>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active text-center my-3 py-3">
-                    <img src="/assets/images/home/img1.png" class="d-block w-100 h-100" alt="Iphone" height="500px" width="500px"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="/assets/images/home/img2.png" class="d-block w-100 h-25" alt="Iphone" height="100px" width=""/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="/assets/images/home/img3.png" class="d-block w-100 h-25" alt="Iphone" height="500px" width="500px"/>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="/assets/images/home/img4.png" class="d-block w-100 h-25" alt="Iphone" height="500px" width="500px"/>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            <Carousel/>
             <Product/>
             <Staff/>
             <About/>

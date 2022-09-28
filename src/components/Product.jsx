@@ -7,7 +7,7 @@ const Product = () => {
 
     const cardItem = (item) => {
         return(
-            <div class="card border-1 my-4 py-1" style={{width:" 18rem"}}>
+            <div class="card border-1 my-5 py-0" style={{width:" 18rem"}}>
                 <img src={item.img} class="card-img-top" alt=''/>
                 <div class="card-body text-center">
                     <h5 class="card-title fw-bold">{item.title}</h5>
@@ -24,12 +24,12 @@ const Product = () => {
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <h1 className='fw-bold text-warning'>Product</h1>
+                        <h1 className='fw-bold text-warning'>PRODUCT</h1>
                         <hr />
                     </div>
                 </div>
             </div>
-            <div className="container my-5">
+            <div className="container py-0">
                 <div className="row justify-content-around">
                     {DataGuitar.map(cardItem)}
                 </div>
