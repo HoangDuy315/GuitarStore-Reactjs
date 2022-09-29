@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Login from './buttons/Login'
-import Signup from './buttons/Signup'
 import LOGO from '../assets/logo1.png'
 import '../style/style.css'
 
@@ -15,7 +14,7 @@ const Header = () => {
                     <span className="navbar-toggler-icon "></span>
                     </button>
                     <div className="collapse navbar-collapse show" id="navbarSupportedContent">
-                        <a class="navbar-brand fs-5 text-warning" href='https://www.facebook.com/profile.php?id=100007746304417'>
+                        <a class="navbar-brand fs-5 text-warning" href='/'>
                             <img src={LOGO} alt="Logo" className='logo btn-warning'/>
                         </a> 
                         <ul className="kkk navbar-nav me-2 px-2 mb-2 mb-lg-0">
@@ -61,7 +60,6 @@ const Header = () => {
                         </ul>
                     {/* <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink> */}
                     <Login/>
-                    <Signup/>
                     {/* Cart */}
                     <div className=''>
                         <NavLink to='/cart' className='btn btn-outline-warning rounded-pill ms-2'>

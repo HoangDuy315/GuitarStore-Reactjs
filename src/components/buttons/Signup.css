@@ -1,0 +1,63 @@
+#bg {
+    background: url('./bg1.png') rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.3px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border: 0.5px solid rgb(235, 204, 28);
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.form img{
+    width: 100px;
+    height: 75px;
+    margin-top: -35px;
+    border: 0.5px solid rgb(235, 204, 28);
+    border-radius: 100%;
+}
+
+.form h1 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin: 15px;
+    color: rgb(237, 210, 56);
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    width: 65%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.submit {
+    padding: 10px;
+    margin: 15px;
+    /* background-color: rgb(235, 204, 28);
+    color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}

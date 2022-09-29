@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
     return (
@@ -38,6 +40,9 @@ const Login = () => {
                                 <span className='fa fa-facebook me-2'></span> Sign in with Facebook
                             </buton>
                             <button type="submit" class="btn btn-warning rounded-pill w-100 mt-4 fw-bold">Login</button>
+                            <p className='textsignup'>
+                                <a class= "text text-warning " htmlFor="exampleCheck1" href='/signup'> Do you have an account?</a>
+                            </p>
                         </form>
                     </div>
                 </div>
