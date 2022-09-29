@@ -1,5 +1,5 @@
 import React from 'react'
-import EMPTY from './empty.png'
+import EMPTY from '../buttons/imgButton/empty.png';
 
 const Cart = () => {
     return (

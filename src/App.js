@@ -11,8 +11,9 @@ import Cart from './components/buttons/Cart';
 import BuyNow from './components/BuyNow';
 import SendSuccess from './components/SendSuccess';
 import InfoStaff from './components/InfoStaff';
-import Signup from './components/buttons/Signup';
-import Login from './components/buttons/Login';
+import Login from './components/buttons/login/Login';
+import Signup from './components/buttons/signup/Signup';
+
 
 function App() {
   return (

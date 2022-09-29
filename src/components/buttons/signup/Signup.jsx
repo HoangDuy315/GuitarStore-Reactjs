@@ -1,6 +1,6 @@
 import React from 'react'
 import './Signup.css';
-import SU from "./signup1.png";
+import SU from "../imgButton/signup1.png";
 import { NavLink } from 'react-router-dom'
 
 const Signup = () => {

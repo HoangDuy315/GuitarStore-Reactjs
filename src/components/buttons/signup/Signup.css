@@ -1,5 +1,5 @@
 #bg1 {
-    background: url('./bg1.png') rgba(0, 0, 0, 0.7);
+    background: url('../imgButton/bg1.png') rgba(0, 0, 0, 0.7);
     background-blend-mode: overlay;
     min-height: 600px;
     background-size: cover;
@@ -8,12 +8,11 @@
     margin-top: 0.3px;
 }
 
-
-.form {
+.form{
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 700px;
+    height: 500px;
     align-items: center;
     border: 0.5px solid rgb(235, 204, 28);
     margin: auto;
@@ -25,10 +24,10 @@
 
 .form img{
     width: 100px;
-    height: 75px;
-    margin-top: -35px;
+    height: 100px;
+    margin-top: -50px;
     border: 0.5px solid rgb(235, 204, 28);
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .form h1 {

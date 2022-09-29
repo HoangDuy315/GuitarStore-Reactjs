@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Login.css';
-import SU from "./signup1.png";
+import SU from "../imgButton/signup1.png";
 
 
 const Login = () => {
