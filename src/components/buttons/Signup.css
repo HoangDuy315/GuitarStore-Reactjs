@@ -32,7 +32,7 @@
 }
 
 .form h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin: 10px;
     color: rgb(237, 210, 56);
@@ -60,16 +60,16 @@
 .login_again {
     text-decoration: none;
     font-size: 16px;
-    /* font-weight: bold; */
+    font-weight: bolder;
     color: rgb(66, 64, 58);
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-top: 2px;
 }
 
 .submit:hover {
     cursor: pointer;
 }
 
-/* .icons {
-    margin-bottom: 20px;
-} */
+.icons {
+    margin-bottom: 30px;
+}
