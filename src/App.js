@@ -12,6 +12,7 @@ import BuyNow from './components/BuyNow';
 import SendSuccess from './components/SendSuccess';
 import InfoStaff from './components/InfoStaff';
 import Signup from './components/buttons/Signup';
+import Login from './components/buttons/Login';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/products' component={Product}/>
           <Route exact path='/staff' component={Staff}/>
           <Route exact path='/signup' component={Signup}/>
+          <Route exact path='/login' component={Login}/>
           <Route exact path='/infostaff' component={InfoStaff}/>
           <Route exact path='/about' component={About}/>
           <Route exact path='/contact' component={Contact}/>

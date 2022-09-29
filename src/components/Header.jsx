@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Login from './buttons/Login'
 import LOGO from '../assets/logo1.png'
 import '../style/style.css'
 
@@ -59,7 +58,15 @@ const Header = () => {
                             </li>
                         </ul>
                     {/* <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink> */}
-                    <Login/>
+                   
+                    <NavLink className="nav-link text-light fw-bold" to="/login">
+                        <div className='login'>
+                            Login
+                        </div>
+                    </NavLink>
+                   
+                    
+
                     {/* Cart */}
                     <div className=''>
                         <NavLink to='/cart' className='btn btn-outline-warning rounded-pill ms-2'>

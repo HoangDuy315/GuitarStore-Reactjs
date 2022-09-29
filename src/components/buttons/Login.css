@@ -1,11 +1,83 @@
-.text {
-    text-align: center;
-    margin-left: 125px;
-    margin-top: 30px;
+#bg {
+    background: url('./bg1.png') rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.3px;
 }
 
-.textsignup {
-    margin-left: 20px;
-    margin-top: 20px;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 480px;
+    align-items: center;
+    border: 0.5px solid rgb(235, 204, 28);
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.form img{
+    width: 100px;
+    height: 75px;
+    margin-top: -35px;
+    border: 0.5px solid rgb(235, 204, 28);
+    border-radius: 100%;
+}
+
+.form h2 {
+    font-size: 2.2rem;
     font-weight: bold;
+    margin: 15px;
+    color: rgb(237, 210, 56);
+}
+
+.boxx {
+    padding: 10px;
+    margin: 10px;
+    width: 65%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.submit {
+    padding: 10px;
+    margin: 15px;
+    /* background-color: rgb(235, 204, 28);
+    color: rgb(245, 244, 192); */
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.forget_password {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: rgb(66, 64, 58);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.create_account {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(66, 64, 58);
+    /* font-weight: bold; */
+    font-size: 16px;
 }
