@@ -91,11 +91,13 @@
 }
 
 .login {
-    margin-left: 750px;
-    margin-right: 10px;
+    margin-left: 770px;
+    margin-right: 8px;
     color: rgb(237, 204, 156);
     transition: all 0.5s ease;
     font-size: larger;
+    text-decoration: none;
+    font-weight: bold;
 }
 .login:hover {
     transform: scale(1.2);

@@ -12,9 +12,10 @@ const Header = () => {
                     <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon "></span>
                     </button>
+                    
                     <div className="collapse navbar-collapse show" id="navbarSupportedContent">
                         <a class="navbar-brand fs-5 text-warning" href='/'>
-                            <img src={LOGO} alt="Logo" className='logo btn-warning'/>
+                            <img src={LOGO} alt="Logo" className='logo'/>
                         </a> 
                         <ul className="kkk navbar-nav me-2 px-2 mb-2 mb-lg-0">
                             <li className="nav-item">
@@ -59,10 +60,8 @@ const Header = () => {
                         </ul>
                     {/* <NavLink className="navbar-brand mx-auto fw-bold text-warning fs-4" to="/">GNAHYUD</NavLink> */}
                    
-                    <NavLink className="nav-link text-light fw-bold" to="/login">
-                        <div className='login'>
-                            Login
-                        </div>
+                    <NavLink className="login text-warning" to="/login">
+                        Login
                     </NavLink>
                    
                     

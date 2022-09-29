@@ -14,12 +14,11 @@
     flex-direction: column;
     width: 400px;
     height: 480px;
-    align-items: center;
     border: 0.5px solid rgb(235, 204, 28);
     margin: auto;
     margin-top: 70px;
     margin-bottom: 80px;
-    background-color: wheat;
+    background-color: rgb(239, 226, 202);
     border-radius: 15px;
 }
 
@@ -35,7 +34,7 @@
     font-size: 2.2rem;
     font-weight: bold;
     margin: 15px;
-    color: rgb(237, 210, 56);
+    color: rgb(250, 214, 11);
 }
 
 .boxx {
@@ -49,8 +48,8 @@
 .submit {
     padding: 10px;
     margin: 15px;
-    /* background-color: rgb(235, 204, 28);
-    color: rgb(245, 244, 192); */
+    background-color: rgb(235, 204, 28);
+    color: rgb(245, 244, 192);
     font-size: 20px;
     font-weight: bold;
     border: none;
