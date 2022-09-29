@@ -17,7 +17,7 @@ const Signup = () => {
                                     <input type="Email" name='email' className='box' placeholder='Type your email'/>
                                     <input type="Password" name='password' className='box' placeholder='Password' />
                                     <input type="Password" name='password' className='box' placeholder='Confirm Password' />
-                                    <NavLink to='/'><button className='submit btn btn-outline-warning'>Submit</button></NavLink>
+                                    <NavLink to='/'><button className='submit btn btn-outline-warning'>Sign Up</button></NavLink>
                                     <NavLink to='/login' className='login_again'>Login</NavLink>
                                     <a href="https://www.facebook.com/profile.php?id=100007746304417" className='icons me-1 ms-3 text-warning fw-bold'>
                                         <i class="fa fa-facebook-f"></i>
