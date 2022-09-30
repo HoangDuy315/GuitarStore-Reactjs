@@ -5,6 +5,7 @@ import '../index.css'
 import About from './About'
 import Contact from './Contact'
 import Carousel from './Carousel'
+import '../style/style.css';
 
 const Home = () => {
     return (
