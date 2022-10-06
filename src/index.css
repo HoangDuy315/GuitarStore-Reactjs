@@ -53,3 +53,12 @@ code {
   width: 100vw;
 }
 
+/* serve */
+.serve {
+  list-style: none;
+  margin-left: -15px;
+}
+.icon {
+  margin-right: 20px;
+  color: salmon;
+}

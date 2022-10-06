@@ -103,6 +103,19 @@
     transform: scale(1.1);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+.ctact2 {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 60vh;
+    width: 60vh;
+    transition: all 0.5s ease;
+    border: 3px solid rgb(233, 185, 42);
+    margin-left: -80px;
+}
+.ctact2:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(241, 196, 90, 0.5);
+}
 
 
 /* Nav */
